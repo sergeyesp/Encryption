@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
-    	int key = 31415926;
+    	int key = 629514131;
     	List<Integer> password = new ArrayList<>();
     	while (key > 0) {
     		int l = key % 10;
@@ -19,8 +19,8 @@ public class Solution {
     		key /= 10;
     	}
 
-        FileInputStream fis = new FileInputStream("/home/sergey/temp2.txt");
-        FileOutputStream fos = new FileOutputStream("/home/sergey/temp3.txt");
+        FileInputStream fis = new FileInputStream("/home/xxx/temp2.txt");
+        FileOutputStream fos = new FileOutputStream("/home/xxx/temp3.txt");
         
         int i = 0;
         
