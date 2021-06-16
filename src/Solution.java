@@ -19,8 +19,8 @@ public class Solution {
     		key /= 10;
     	}
 
-        FileInputStream fis = new FileInputStream("/home/xxx/temp2.txt");
-        FileOutputStream fos = new FileOutputStream("/home/xxx/temp3.txt");
+        FileInputStream fis = new FileInputStream("/home/xxscx/temp2.txt");
+        FileOutputStream fos = new FileOutputStream("/home/xxscx/temp3.txt");
         
         int i = 0;
         
